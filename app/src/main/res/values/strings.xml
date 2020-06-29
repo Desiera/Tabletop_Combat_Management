@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tabletop Combat Management</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="npc_name">Character Name</string>
+    <string name="npc_level">Level</string>
+    <string name="npc_intelligence">Intelligence</string>
+    <string name="npc_strength">Strength</string>
+    <string name="npc_charisma">Charisma</string>
+    <string name="npc_dexterity">Dexterity</string>
+    <string name="add_npc">Add NPC</string>
+    <string name="npc_wisdom">Wisdom</string>
+    <string name="npc_constitution">Constitution</string>
+    <string name="view_npc">View NPC\'s</string>
+</resources>

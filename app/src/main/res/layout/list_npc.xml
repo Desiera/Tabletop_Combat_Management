@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/NPCName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/npc_name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NPCName" />
+
+    <TextView
+        android:id="@+id/NPCLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/npc_level"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text"
+        app:layout_constraintStart_toEndOf="@+id/text"
+        app:layout_constraintTop_toTopOf="@+id/text" />
+
+    <TextView
+        android:id="@+id/NPCStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/npc_strength"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text2"
+        app:layout_constraintStart_toEndOf="@+id/text2"
+        app:layout_constraintTop_toTopOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/NPCDexterity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/npc_dexterity"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text3"
+        app:layout_constraintStart_toEndOf="@+id/text3"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/NPCConstitution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/npc_constitution"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text4"
+        app:layout_constraintStart_toEndOf="@+id/text4"
+        app:layout_constraintTop_toTopOf="@+id/text4" />
+
+    <TextView
+        android:id="@+id/NPCIntelligence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/npc_intelligence"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text5"
+        app:layout_constraintStart_toEndOf="@+id/text5"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+    <TextView
+        android:id="@+id/NPCWisdom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/npc_wisdom"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text6"
+        app:layout_constraintStart_toEndOf="@+id/text6"
+        app:layout_constraintTop_toTopOf="@+id/text6" />
+
+    <TextView
+        android:id="@+id/NPCCharisma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/npc_charisma"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text7"
+        app:layout_constraintStart_toEndOf="@+id/text7"
+        app:layout_constraintTop_toTopOf="@+id/text7" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strength:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/text"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dexterity:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/text2"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constitution:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/text3"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="intelligence:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/text4"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wisdom:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/text5"
+        app:layout_constraintTop_toBottomOf="@+id/text5" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charisma:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/text6"
+        app:layout_constraintTop_toBottomOf="@+id/text6" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="67dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
